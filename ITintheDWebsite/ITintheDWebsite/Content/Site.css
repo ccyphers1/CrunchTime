@@ -758,4 +758,17 @@ tr.pager td {
 /*------------stuff chance put in...------------*/
 .landingBackground {
     background-image: url(Images/campus_martius.jpg);
+    padding: 100px; 
+    margin: 0;
+}
+
+#whatIs {
+    background-image: url(Images/joe_fist.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #239487;
+}
+
+div {
+    overflow: auto;
 }
