@@ -758,15 +758,31 @@ tr.pager td {
 /*------------stuff chance put in...------------*/
 .landingBackground {
     background-image: url(Images/campus_martius.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 100px; 
     margin: 0;
 }
 
 #whatIs {
     background-image: url(Images/joe_fist.jpg);
+    background-size: 40%;
     background-position: right;
     background-repeat: no-repeat;
-    background-color: #239487;
+    background-color: black;
+    color: white;
+}
+
+.whatIsHeader {
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+.whatIsContent {
+    float: right;
+    width: 60%;
+    word-wrap: normal;
 }
 
 div {
