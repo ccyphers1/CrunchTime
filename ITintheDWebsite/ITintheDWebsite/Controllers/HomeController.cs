@@ -16,5 +16,10 @@ namespace ITintheDWebsite.Controllers
         {
             return View();
         }
+
+        public ActionResult Learning()
+        {
+            return View();
+        }
     }
 }
