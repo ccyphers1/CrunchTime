@@ -789,6 +789,20 @@ div {
     overflow: auto;
 }
 
+.infoBox {
+    background: black;
+}
+
+.infoBoxHeader {
+    color: white;
+    text-align: center;
+}
+
+.infoBoxContent {
+    background: #efeeef;
+    margin: 40px;
+}
+
 /*-------------------what you learn classes n id's--------------------*/
 
 .learningBackground {
@@ -809,4 +823,15 @@ div {
 #howItWorksContent {
     background: #efeeef;
     margin: 40px;
+}
+
+/*------------------what you gain page---------------------*/
+
+.whatYouGain {
+    background: black;
+}
+
+#whatYouGainHeader {
+    color: white;
+    text-align: center;
 }

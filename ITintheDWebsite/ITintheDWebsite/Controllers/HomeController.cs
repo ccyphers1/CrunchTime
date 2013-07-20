@@ -21,5 +21,10 @@ namespace ITintheDWebsite.Controllers
         {
             return View();
         }
+
+        public ActionResult Gain()
+        {
+            return View();
+        }
     }
 }
