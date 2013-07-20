@@ -810,3 +810,12 @@ div {
     background: #efeeef;
     margin: 40px;
 }
+
+/*Rachel's Additions */
+.WhatBackground {
+    background-image: url(Compuware.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 0;
+}

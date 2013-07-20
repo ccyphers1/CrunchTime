@@ -12,6 +12,10 @@ namespace ITintheDWebsite.Controllers
         {
             return View();
         }
+        public ActionResult Who()
+        {
+            return View();
+        }
         public ActionResult What()
         {
             return View();
