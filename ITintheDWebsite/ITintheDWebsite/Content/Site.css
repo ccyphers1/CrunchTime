@@ -835,3 +835,12 @@ div {
     color: white;
     text-align: center;
 }
+
+/*Rachel's Additions */
+.whatBackground {
+    background-image: url(C:\Users\Rachel\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\Content\Images\Compuware.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 0;
+}
