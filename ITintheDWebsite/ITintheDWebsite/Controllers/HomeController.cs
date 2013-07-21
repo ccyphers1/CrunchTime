@@ -30,5 +30,10 @@ namespace ITintheDWebsite.Controllers
         {
             return View();
         }
+
+        public ActionResult Why()
+        {
+            return View();
+        }
     }
 }

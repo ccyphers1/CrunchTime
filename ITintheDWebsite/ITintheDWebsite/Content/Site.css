@@ -788,7 +788,7 @@ div {
 
 .backgroundContentBox {
     background: black;
-    opacity: .5;
+    opacity: .7;
     background-size: cover;
     margin: 70px;
 }
@@ -797,6 +797,23 @@ div {
     color: white;
     opacity: 1;
     font-size: 20px;
+}
+
+.infoBox2 {
+    background-color: black;
+    color: white;
+}
+
+.infoBox2Header {
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+.infoBox2Content {
+    float: right;
+    width: 60%;
+    word-wrap: normal;
 }
 
 
@@ -860,4 +877,35 @@ div {
     background-size: cover;
     padding: 100px;
     margin: 0;
+}
+
+/*-----------------whyDetroit page-----------------*/
+
+#whyBackground {
+    background-image: url(Images/opportunity_detroit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    margin: 0;
+}
+
+#live {
+    background-image: url(Images/live.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+}
+
+#work {
+    background-image: url(Images/work.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+}
+
+#play {
+    background-image: url(Images/play.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
 }
