@@ -756,7 +756,29 @@ tr.pager td {
 }
 
 /*------------stuff chance put in...------------*/
-.landingBackground {
+
+div {
+    overflow: auto;
+}
+
+.infoBox {
+    background: black;
+}
+
+.infoBoxHeader {
+    color: white;
+    text-align: center;
+}
+
+.infoBoxContent {
+    background: #efeeef;
+    margin: 40px;
+}
+
+
+/*------------landing page---------------*/
+
+#landingBackground {
     background-image: url(Images/campus_martius.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -785,55 +807,26 @@ tr.pager td {
     word-wrap: normal;
 }
 
-div {
-    overflow: auto;
-}
 
-.infoBox {
-    background: black;
-}
-
-.infoBoxHeader {
-    color: white;
-    text-align: center;
-}
-
-.infoBoxContent {
-    background: #efeeef;
-    margin: 40px;
-}
 
 /*-------------------what you learn classes n id's--------------------*/
 
-.learningBackground {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.howItWorks {
-    background: black;
-}
-
-#howItWorksHeader {
-    color: white;
-    text-align: center;
-}
-
-#howItWorksContent {
-    background: #efeeef;
-    margin: 40px;
+#learningBackground {
+    background-image: url(Images/classroom.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
 }
 
 /*------------------what you gain page---------------------*/
 
-.whatYouGain {
-    background: black;
-}
-
-#whatYouGainHeader {
-    color: white;
-    text-align: center;
+#gainBackground {
+    background-image: url(Images/downtown_detroit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
 }
 
 /*Rachel's Additions */
