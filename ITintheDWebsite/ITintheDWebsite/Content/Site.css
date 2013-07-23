@@ -878,7 +878,51 @@ div {
     width: auto;
     height: 500px;
 }
-
+.whoBackground {
+    background-image: url(Images/Compuware.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+.jumplinkSponsor {
+    background-color: none;
+    font-color: White;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.jumplinkAcademic {
+    background-color: none;
+    font-color: White;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+   
+}
+.jumplinkMentor {
+    background-color: none;
+    font-color: White;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 800px;
+  
+}
+.jumplinkAlumni {
+    background-color: none;
+    font-color: White;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 125px;
+    left: 800px;
+}
 /*-----------------whyDetroit page-----------------*/
 
 #whyBackground {
