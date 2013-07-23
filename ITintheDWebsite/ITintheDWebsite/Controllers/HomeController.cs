@@ -60,9 +60,14 @@ namespace ITintheDWebsite.Controllers
             {
                 db.Apps.Add(a);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("ThankYou");
             }
 
+            return View();
+        }
+
+        public ActionResult ThankYou()
+        {
             return View();
         }
     }

@@ -318,6 +318,7 @@
     <Content Include="Views\Home\Who.cshtml" />
     <Content Include="Views\Home\Why.cshtml" />
     <Content Include="Views\Home\Apply.cshtml" />
+    <Content Include="Views\Home\ThankYou.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
