@@ -97,3 +97,4 @@ C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\
 C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.pdb
 C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.Migrations.Initial.resources
 C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.csproj.GenerateResource.Cache
+C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.csprojResolveAssemblyReference.cache
