@@ -431,7 +431,7 @@ input, textarea {
     font-size: 1.2em;
     margin: 5px 0 6px 0;
     padding: 5px;
-    width: 300px;
+    /*width: 300px;*/
 }
 
 textarea {
@@ -908,4 +908,8 @@ div {
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right;
+}
+
+#roleRow {
+    width: auto;
 }

@@ -13,7 +13,7 @@
         <legend>Application</legend>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Email)
+            <b>Email Address</b>
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.Email)
@@ -21,7 +21,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.FirstName)
+            <b>First Name</b>
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.FirstName)
@@ -29,7 +29,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.LastName)
+            <b>Last Name</b>
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.LastName)
@@ -37,7 +37,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.HowYouHeard)
+            <b>How'd you hear about us?</b>
         </div>
         <div class="editor-field">
             @*Html.EditorFor(model => model.HowYouHeard)*@
@@ -46,15 +46,21 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Role)
+            <b>What role are you interested in?</b>
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Role)
-            @Html.ValidationMessageFor(model => model.Role)
+            @*Html.EditorFor(model => model.Role)*@
+            <div id="roleRow">
+                Business Analyst @Html.RadioButtonFor(model => model.Role, "Business Analyst")
+                Project Manager @Html.RadioButtonFor(model => model.Role, "Project Manager")
+                Engineer @Html.RadioButtonFor(model => model.Role, "Engineer")
+                User Interface @Html.RadioButtonFor(model => model.Role, "User Interface")
+                @Html.ValidationMessageFor(model => model.Role)
+            </div>
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Question1)
+            <b>Question 1</b>
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.Question1)
@@ -62,7 +68,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Question2)
+            <b>Question 2</b>
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.Question2)
@@ -70,7 +76,7 @@
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Question3)
+            <b>Question 3</b>
         </div>
         <div class="editor-field">
             @Html.EditorFor(model => model.Question3)
