@@ -95,3 +95,5 @@ C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\bin\
 C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.dll
 C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.pdb
+C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.Migrations.Initial.resources
+C:\Users\chance\Documents\GitHub\CrunchTime\ITintheDWebsite\ITintheDWebsite\obj\Debug\ITintheDWebsite.csproj.GenerateResource.Cache

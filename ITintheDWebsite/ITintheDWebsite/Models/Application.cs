@@ -31,14 +31,17 @@ namespace ITintheDWebsite.Models
 
         [Required]
         [StringLength(200)]
+        [DataType(DataType.MultilineText)]
         public string Question1 { get; set; }
 
         [Required]
         [StringLength(200)]
+        [DataType(DataType.MultilineText)]
         public string Question2 { get; set; }
 
         [Required]
         [StringLength(200)]
+        [DataType(DataType.MultilineText)]
         public string Question3 { get; set; }
     }
 

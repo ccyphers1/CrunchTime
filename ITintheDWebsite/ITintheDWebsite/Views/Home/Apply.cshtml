@@ -40,7 +40,8 @@
             @Html.LabelFor(model => model.HowYouHeard)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.HowYouHeard)
+            @*Html.EditorFor(model => model.HowYouHeard)*@
+            @Html.DropDownList("HowYouHeard")
             @Html.ValidationMessageFor(model => model.HowYouHeard)
         </div>
 

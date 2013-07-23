@@ -15,10 +15,12 @@ namespace ITintheDWebsite.Controllers
         {
             return View();
         }
+
         public ActionResult Who()
         {
             return View();
         }
+
         public ActionResult What()
         {
             return View();
@@ -41,7 +43,12 @@ namespace ITintheDWebsite.Controllers
 
         public ActionResult Apply()
         {
+            List<SelectListItem> howYouHeard = new List<SelectListItem>();
+            howYouHeard.Add(new SelectListItem { Text = "Internet", Value = "Internet" });
+            howYouHeard.Add(new SelectListItem { Text = "Friend", Value = "Friend" });
+            howYouHeard.Add(new SelectListItem { Text = "Other", Value = "Other" });
 
+            ViewBag.HowYouHeard = howYouHeard;
 
             return View();
         }
