@@ -891,6 +891,7 @@ div {
     font-weight: bold;
     font-size: 30px;
     position: relative;
+    width: 100px;
     top: 100px;
     left: 100px;
 }
@@ -900,6 +901,7 @@ div {
     font-weight: bold;
     font-size: 30px;
     position: relative;
+    width: 100px;
     top: 200px;
     left: 100px;
    
@@ -910,6 +912,7 @@ div {
     font-weight: bold;
     font-size: 30px;
     position: relative;
+    width: 100px;
     top: 0px;
     left: 800px;
   
@@ -920,6 +923,7 @@ div {
     font-weight: bold;
     font-size: 30px;
     position: relative;
+    width: 100px;
     top: 125px;
     left: 800px;
 }
